@@ -1,0 +1,337 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: none;
+    position: fixed;
+    top: 0;
+    transition: top 0.3s;
+    z-index: 1;
+    box-shadow: none;
+    font-family: 'Russo One';
+}
+
+header .logo {
+    font-size: 1em;
+    font-weight: 100;
+    transition: transform 0.3s ease;
+}
+
+header .logo:hover {
+    transform: scale(1.1);
+    background-color: transparent; transform: scale(1.2);
+}
+
+header .links a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 1914px;
+    margin-bottom: 15px;
+    font-family: 'Russo One';
+    transition: transform 0.3s ease;
+}
+
+header .links a:hover {
+    transform: scale(1.1);
+    background-color: transparent; transform: scale(1.1);
+}
+
+header .links a i {
+    margin-right: 8px;
+}
+
+.hero {
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #ffcc00;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e0b800;
+}
+
+.join, .stay-updated, .join-community {
+    padding: 50px 20px;
+    background-color: #222;
+    margin: 0; 
+}
+
+.join h2, .stay-updated h2, .join-community h2 {
+    font-size: 2em;
+    font-weight: 600;
+    
+}
+.stay-updated h4
+{
+    margin-bottom: 70px;
+    font-size: 20px;
+}
+
+.join-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+
+.join-info input {
+    padding: 20px;
+    font-size: 1.2em;
+   
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #fff;
+    color: #000;
+    width: 250px;
+    text-align: center;
+    font-family: 'Russo One';
+    margin-right: -10px;
+    margin-top:  20px;
+    
+}
+.join-info .btn {
+    font-size: 1.2em; 
+    padding: 20px;
+   
+    border-radius: 0px 10px 10px 0px; 
+    background-color: #ffcc00;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Russo One';
+}
+
+.join-info .btn:hover {
+    background-color: #d1a700;
+}
+
+.stay-updated h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.stay-updated p {
+    margin-bottom: 63px;
+}
+
+.socials {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: transparent;
+    
+}
+
+.socials a {
+    background-color: transparent;
+    padding: 0;
+    transition: transform 0.3s ease;
+    margin-bottom: 40px;
+}
+
+.socials a:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+}
+
+.socials a i {
+    margin-right: 8px;
+}
+
+.fixed-img {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.fixed-img2 {
+    margin-top: -300px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -2; 
+}
+
+.join-community {
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 10;
+}
+
+.join-community .btn {
+    margin-top: 30px;
+    font-family: 'Russo One';
+    border-radius: 5px 5px 5px 5px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: -300px;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+#video-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#section-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.content h2 {
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content h1 {
+    margin-top: 130px;
+    margin-bottom: 0;
+}
+
+.content p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Cinzel';
+}
+
+.angled-section {
+    position: relative;
+    padding: 50px 20px;
+    background-color: #222;
+    color: #fff;
+    z-index: 2;
+}
+.h4h4 a  
+{
+    font-family: 'Russo One';
+    background-color: transparent;
+    padding: 0;
+    transition: transform 0.3s ease;
+    color:#ffcc00;
+    font-style: normal;
+  
+
+    
+}
+.divider {
+    display: block;
+    width: 100%;
+    height: 50px; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.divider-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: -170px;
+    padding: 0;
+    opacity: 1;
+    position: relative;
+    z-index: 1;
+}
+
+.divider-image2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: -30px;
+    padding: 0;
+    opacity: 1;
+    position: relative;
+    z-index: 1;
+}
+
+.overlapping-text {
+    margin-top: -200px;
+    z-index: 2;
+    position: relative;
+    
+    font-size: 34px;
+}
+.join-section {
+    padding: 100px 20px; 
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
